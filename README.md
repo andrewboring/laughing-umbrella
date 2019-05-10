@@ -19,7 +19,7 @@ Files:
 - [Project Proposal](https://github.com/andrewboring/laughing-umbrella/blob/master/Project-Proposal.md)
 - [Data Catalog](https://github.com/andrewboring/laughing-umbrella/blob/master/Data-Catalog.md)
 
-## Folders
+Folders
 - /Data - Raw data files outlined in the Data Catalog. 
 
 
