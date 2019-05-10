@@ -2,14 +2,16 @@
 Laughing Umbrella Project Proposal
 
 ## Abstract
-This project examines economic indicators from 2000 to present and uses machine learning to develop a model for predicting a sudden decline in value, colloquially known as a "crash", in the real estate market.
-
+This project examines economic indicators from 2000 to present and uses machine learning to develop a model for predicting a sudden decline in value, colloquially known as a "crash", in the real estate market.  
+ 
+ 
 
 ## Hypothesis
-Using economnic indicators in the data sets listed below, we can create a machine learning model to receive input on a variety of variables to determine if a sudden downward market event is imminent.
+Using economnic indicators in the data sets listed below, we can create a machine learning model to receive input on a variety of variables to determine if a sudden downward market event is imminent.  
+
 
 ## Null Hypothesis
-These economic indicators do not provide sufficient correlation to predict future real estate market events. 
+These economic indicators do not provide sufficient correlation to predict future real estate market events.   
  
 
 ## Data
