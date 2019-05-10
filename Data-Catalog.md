@@ -28,9 +28,9 @@ Files: /Data/DOL/unemployment_rate.xml
 
 **Data: Household Debt Service and Financial Obligations**   
 Source: Federal Reserve Board  
-URL: https://www.federalreserve.gov/releases/housedebt/about.htm
-     *(Note: the following URL is wrapped across three lines. Please copy/paste to reassemble.)*
-     
+URL: https://www.federalreserve.gov/releases/housedebt/about.htm  
+
+     *(Note: the following URL is wrapped across three lines. Please copy/paste to reassemble.)*    
      https://www.federalreserve.gov/datadownload/Download.aspx? 
      rel=FOR&series=91e0f9a6b8e6a4b1ef334ce2eaf22860&filetype=csv 
      &label=include&layout=seriescolumn&from=03/01/1990&to=12/31/2018   
@@ -38,6 +38,6 @@ URL: https://www.federalreserve.gov/releases/housedebt/about.htm
 Files: /Data/FRB_FOR.csv
 
 **Data:**
-Source: Survey of Market Absorbtion of Multifamily Units
-URL: https://www.census.gov/programs-surveys/soma/data/tables.html
-Files: [TBD]
+Source: Survey of Market Absorbtion of Multifamily Units  
+URL: https://www.census.gov/programs-surveys/soma/data/tables.html  
+Files: [TBD]  
