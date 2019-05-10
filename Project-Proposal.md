@@ -7,7 +7,10 @@ This project examines economic indicators from 2000 to present and uses machine 
 
 
 ## Hypothesis
-Using economnic indicators in the data sets listed below, we can create a machine learning model to receive input on a variety of variables to determine if a 
+Using economnic indicators in the data sets listed below, we can create a machine learning model to receive input on a variety of variables to determine if a sudden downward market event is imminent.
+
+## Null Hypothesis
+These economic indicators do not provide sufficient correlation to predict future real estate market events. 
  
 
 ## Data
