@@ -1,5 +1,5 @@
 # Laughing Umbrella Data Catalog
-# Sources of data for this project.
+This file is a reference for the data sets used in this project and their upstream sources.
 
 Format: 
 - Data: The name of the data set used in the project. 
@@ -33,13 +33,13 @@ URL: https://www.federalreserve.gov/datadownload/Download.aspx?rel=FOR&series=91
 Files: /Data/Debt_Service
 
 **Data: Survey of Market Absorbtion of Multifamily Units,
-Absorption Rates of Privately Financed, Nonsubsidized, Unfurnished Rental Apartments**
-Source: US Census												   
-URL: https://www.census.gov/programs-surveys/soma/data/tables.html   
-Files: /Data/Market_Absorbtion
+Absorption Rates of Privately Financed, Nonsubsidized, Unfurnished Rental Apartments**   
+Source: US Census												    
+URL: https://www.census.gov/programs-surveys/soma/data/tables.html     
+Files: /Data/Market_Absorbtion  
 
-**Data: New Residential Sales**
-Source: US Census
-URL: https://www.census.gov/econ/currentdata/
-Files: /Data/New_Home_Sales
+**Data: New Residential Sales**  
+Source: US Census  
+URL: https://www.census.gov/econ/currentdata/  
+Files: /Data/New_Home_Sales  
 
