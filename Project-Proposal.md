@@ -1,6 +1,5 @@
 # Predicting the Next Real Estate Market Crash
-## Project Proposal for Laughing Umbrella
-
+Laughing Umbrella Project Proposal
 
 ## Abstract
 This project examines economic indicators from 2000 to present and uses machine learning to develop a model for predicting a sudden decline in value, colloquially known as a "crash", in the real estate market.
