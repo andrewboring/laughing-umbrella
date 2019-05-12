@@ -6,9 +6,11 @@ Team Members: Andrew Boring, Natalie Maize, Troy McCullough
 Date: May 2019  
 
 ## Abstract
+In 2008, a (housing bubble)[https://en.wikipedia.org/wiki/United_States_housing_bubble] was determined to have crashed around the same time the S&P Case-Schiller Home Price Index dropped at its fastest rate after cresting in 2006. The decline of 35 points from Jan 2008 to Dec 2008 indicated a 19% drop in value. Along with other economic events and indicators, this signified a recession.
+
 This project examines U.S. economic indicators from 2000 to present and uses machine learning to develop a model for predicting an imminent market correction, such as a sudden decline in value, in the real estate market. 
 
-In 2008, a (housing bubble)[https://en.wikipedia.org/wiki/United_States_housing_bubble] was determined to have crashed when the S&P Case-Schiller Home Price Index dropped at it's fastest rate after cresting in 2006. The decline of 35 points from Jan 2008 to Dec 2008 indicated a 19% drop in value, and along with other economic events, signifyed a recession.
+
  
 
 ## Hypothesis
@@ -27,6 +29,8 @@ Data sets used in this project are gathered from public data sets from the follo
  - Federal Reserve Board - Household Debt Service and Financial Obligations
  - US Census - Market Absorbtion of Multifamily Units, New Residential Sales
  - Standard and Poor - Case-Schiller House Price Index
+ 
+A (Data Catalog)[https://github.com/andrewboring/laughing-umbrella/blob/master/Data-Catalog.md] provides source information and links.
 
 ## Approach
 
