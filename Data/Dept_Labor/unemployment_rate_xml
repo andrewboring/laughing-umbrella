@@ -1,0 +1,1808 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<feed xml:base="https://api.dol.gov/V1/Statistics/BLS_Numbers/" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">unemploymentRate</title>
+  <id>https://api.dol.gov/V1/statistics/BLS_Numbers/unemploymentRate</id>
+  <updated>2019-05-10T17:29:34Z</updated>
+  <link rel="self" title="unemploymentRate" href="unemploymentRate" />
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=1948)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=1948)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1948</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">3.40</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=1949)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=1949)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1949</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">4.30</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=1950)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=1950)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1950</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">6.50</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=1951)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=1951)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1951</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">3.70</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=1952)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=1952)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1952</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">3.20</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=1953)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=1953)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1953</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">2.90</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=1954)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=1954)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1954</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">4.90</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=1955)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=1955)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1955</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">4.90</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=1956)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=1956)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1956</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">4</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=1957)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=1957)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1957</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">4.20</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=1958)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=1958)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1958</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">5.80</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=1959)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=1959)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1959</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">6</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=1960)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=1960)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1960</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">5.20</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=1961)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=1961)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1961</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">6.60</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=1962)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=1962)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1962</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">5.80</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=1963)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=1963)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1963</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">5.70</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=1964)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=1964)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1964</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">5.60</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=1965)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=1965)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1965</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">4.90</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=1966)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=1966)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1966</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">4</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=1967)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=1967)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1967</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">3.90</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=1968)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=1968)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1968</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">3.70</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=1969)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=1969)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1969</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">3.40</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=1970)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=1970)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1970</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">3.90</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=1971)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=1971)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1971</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">5.90</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=1972)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=1972)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1972</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">5.80</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=1973)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=1973)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1973</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">4.90</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=1974)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=1974)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1974</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">5.10</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=1975)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=1975)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1975</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">8.10</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=1976)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=1976)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1976</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">7.90</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=1977)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=1977)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1977</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">7.50</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=1978)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=1978)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1978</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">6.40</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=1979)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=1979)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1979</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">5.90</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=1980)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=1980)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1980</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">6.30</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=1981)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=1981)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1981</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">7.50</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=1982)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=1982)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1982</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">8.60</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=1983)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=1983)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1983</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">10.40</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=1984)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=1984)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1984</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">8</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=1985)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=1985)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1985</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">7.30</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=1986)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=1986)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1986</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">6.70</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=1987)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=1987)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1987</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">6.60</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=1988)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=1988)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1988</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">5.70</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=1989)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=1989)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1989</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">5.40</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=1990)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=1990)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1990</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">5.40</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=1991)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=1991)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1991</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">6.40</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=1992)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=1992)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1992</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">7.30</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=1993)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=1993)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1993</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">7.30</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=1994)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=1994)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1994</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">6.60</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=1995)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=1995)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1995</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">5.60</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=1996)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=1996)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1996</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">5.60</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=1997)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=1997)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1997</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">5.30</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=1998)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=1998)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1998</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">4.60</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=1999)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=1999)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1999</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">4.30</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=2000)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=2000)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">2000</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">4</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=2001)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=2001)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">2001</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">4.20</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=2002)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=2002)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">2002</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">5.70</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=2003)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=2003)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">2003</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">5.80</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=2004)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=2004)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">2004</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">5.70</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=2005)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=2005)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">2005</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">5.30</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=2006)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=2006)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">2006</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">4.70</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=2007)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=2007)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">2007</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">4.60</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=2008)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=2008)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">2008</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">5</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=2009)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=2009)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">2009</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">7.80</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=2010)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=2010)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">2010</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">9.80</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=2011)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=2011)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">2011</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">9.10</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=2012)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=2012)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">2012</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">8.30</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=2013)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=2013)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">2013</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">8</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=2014)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=2014)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">2014</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">6.60</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=2015)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=2015)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">2015</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">5.70</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=2016)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=2016)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">2016</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">4.90</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=2017)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=2017)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">2017</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">4.70</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=2018)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=2018)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">2018</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">4.10</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=1,year=2019)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=1,year=2019)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">2019</d:year>
+        <d:period m:type="Edm.Int32">1</d:period>
+        <d:value m:type="Edm.Decimal">4</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=2,year=1948)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=2,year=1948)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1948</d:year>
+        <d:period m:type="Edm.Int32">2</d:period>
+        <d:value m:type="Edm.Decimal">3.80</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=2,year=1949)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=2,year=1949)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1949</d:year>
+        <d:period m:type="Edm.Int32">2</d:period>
+        <d:value m:type="Edm.Decimal">4.70</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=2,year=1950)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=2,year=1950)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1950</d:year>
+        <d:period m:type="Edm.Int32">2</d:period>
+        <d:value m:type="Edm.Decimal">6.40</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=2,year=1951)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=2,year=1951)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1951</d:year>
+        <d:period m:type="Edm.Int32">2</d:period>
+        <d:value m:type="Edm.Decimal">3.40</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=2,year=1952)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=2,year=1952)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1952</d:year>
+        <d:period m:type="Edm.Int32">2</d:period>
+        <d:value m:type="Edm.Decimal">3.10</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=2,year=1953)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=2,year=1953)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1953</d:year>
+        <d:period m:type="Edm.Int32">2</d:period>
+        <d:value m:type="Edm.Decimal">2.60</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=2,year=1954)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=2,year=1954)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1954</d:year>
+        <d:period m:type="Edm.Int32">2</d:period>
+        <d:value m:type="Edm.Decimal">5.20</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=2,year=1955)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=2,year=1955)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1955</d:year>
+        <d:period m:type="Edm.Int32">2</d:period>
+        <d:value m:type="Edm.Decimal">4.70</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=2,year=1956)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=2,year=1956)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1956</d:year>
+        <d:period m:type="Edm.Int32">2</d:period>
+        <d:value m:type="Edm.Decimal">3.90</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=2,year=1957)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=2,year=1957)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1957</d:year>
+        <d:period m:type="Edm.Int32">2</d:period>
+        <d:value m:type="Edm.Decimal">3.90</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=2,year=1958)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=2,year=1958)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1958</d:year>
+        <d:period m:type="Edm.Int32">2</d:period>
+        <d:value m:type="Edm.Decimal">6.40</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=2,year=1959)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=2,year=1959)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1959</d:year>
+        <d:period m:type="Edm.Int32">2</d:period>
+        <d:value m:type="Edm.Decimal">5.90</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=2,year=1960)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=2,year=1960)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1960</d:year>
+        <d:period m:type="Edm.Int32">2</d:period>
+        <d:value m:type="Edm.Decimal">4.80</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=2,year=1961)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=2,year=1961)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1961</d:year>
+        <d:period m:type="Edm.Int32">2</d:period>
+        <d:value m:type="Edm.Decimal">6.90</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=2,year=1962)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=2,year=1962)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1962</d:year>
+        <d:period m:type="Edm.Int32">2</d:period>
+        <d:value m:type="Edm.Decimal">5.50</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=2,year=1963)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=2,year=1963)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1963</d:year>
+        <d:period m:type="Edm.Int32">2</d:period>
+        <d:value m:type="Edm.Decimal">5.90</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=2,year=1964)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=2,year=1964)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1964</d:year>
+        <d:period m:type="Edm.Int32">2</d:period>
+        <d:value m:type="Edm.Decimal">5.40</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=2,year=1965)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=2,year=1965)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1965</d:year>
+        <d:period m:type="Edm.Int32">2</d:period>
+        <d:value m:type="Edm.Decimal">5.10</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=2,year=1966)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=2,year=1966)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1966</d:year>
+        <d:period m:type="Edm.Int32">2</d:period>
+        <d:value m:type="Edm.Decimal">3.80</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=2,year=1967)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=2,year=1967)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1967</d:year>
+        <d:period m:type="Edm.Int32">2</d:period>
+        <d:value m:type="Edm.Decimal">3.80</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=2,year=1968)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=2,year=1968)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1968</d:year>
+        <d:period m:type="Edm.Int32">2</d:period>
+        <d:value m:type="Edm.Decimal">3.80</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=2,year=1969)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=2,year=1969)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1969</d:year>
+        <d:period m:type="Edm.Int32">2</d:period>
+        <d:value m:type="Edm.Decimal">3.40</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=2,year=1970)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=2,year=1970)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1970</d:year>
+        <d:period m:type="Edm.Int32">2</d:period>
+        <d:value m:type="Edm.Decimal">4.20</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=2,year=1971)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=2,year=1971)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1971</d:year>
+        <d:period m:type="Edm.Int32">2</d:period>
+        <d:value m:type="Edm.Decimal">5.90</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=2,year=1972)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=2,year=1972)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1972</d:year>
+        <d:period m:type="Edm.Int32">2</d:period>
+        <d:value m:type="Edm.Decimal">5.70</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=2,year=1973)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=2,year=1973)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1973</d:year>
+        <d:period m:type="Edm.Int32">2</d:period>
+        <d:value m:type="Edm.Decimal">5</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=2,year=1974)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=2,year=1974)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1974</d:year>
+        <d:period m:type="Edm.Int32">2</d:period>
+        <d:value m:type="Edm.Decimal">5.20</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.dol.gov/V1/Statistics/BLS_Numbers/unemploymentRate(period=2,year=1975)</id>
+    <title type="text"></title>
+    <updated>2019-05-10T17:29:34Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="unemploymentRate" href="unemploymentRate(period=2,year=1975)" />
+    <category term="BLS_NumbersModel.unemploymentRate" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:year m:type="Edm.Int32">1975</d:year>
+        <d:period m:type="Edm.Int32">2</d:period>
+        <d:value m:type="Edm.Decimal">8.10</d:value>
+        <d:type>F</d:type>
+      </m:properties>
+    </content>
+  </entry>
+  <link rel="next" href="https://api.dol.gov/V1/statistics/BLS_Numbers/unemploymentRate?$skiptoken=2,1975" />
+</feed>

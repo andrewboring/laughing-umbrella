@@ -1,0 +1,22 @@
+Table 1. Absorption Rates for Unfurnished Apartments Completed by Geographic
+Area: 2003
+(Privately financed, nonsubsidized, unfurnished, rental apartments in buildings
+with five units or more.  Details may not sum to totals because of rounding.
+Percents are computed using unrounded data)
+
+                                             Percent                  Percent absorbed in:
+                                                of          3           6           9           12
+Geographic areas              Total           total         months      months      months   months
+
+United States, total         166,500           100          61          79          87          93
+ Inside metropolitan areas   156,200            94          60          78          87          93
+  In central cities           73,700            44          60          78          87          94
+  Not in central cities       84,400            50          60          78          87          93
+ Outside metropolitan areas   10,400             6          77          89          94          95
+
+Northeast                     19,800            13          72          85          88          91
+Midwest                       35,500            20          62          79          85          90
+South                         72,000            42          56          77          87          95
+West                          39,200            26          63          80          89          95
+
+SOURCE:  U.S. Census Bureau, Survey of Market Absorption
