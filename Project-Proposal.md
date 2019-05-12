@@ -1,10 +1,11 @@
 # Predicting the Next Real Estate Market Crash
 Laughing Umbrella Project Proposal
+Team: Andrew Boring, Natalie Maize, Troy McCullough
 
 ## Abstract
-This project examines U.S. economic indicators from 2000 to present and uses machine learning to develop a model for predicting a sudden decline in value, colloquially known as a "crash", in the real estate market. 
+This project examines U.S. economic indicators from 2000 to present and uses machine learning to develop a model for predicting an imminent market correction, such as a sudden decline in value, in the real estate market. 
 
-In 2008, a (housing bubble)[https://en.wikipedia.org/wiki/United_States_housing_bubble]
+In 2008, a (housing bubble)[https://en.wikipedia.org/wiki/United_States_housing_bubble] was determined to have crashed when the S&P Case-Schiller Home Price Index dropped at it's fastest rate after cresting in 2006. The decline of 35 points from Jan 2008 to Dec 2008 indicated a 19% drop in value, and along with other economic events, signifyed a recession.
  
 
 ## Hypothesis
