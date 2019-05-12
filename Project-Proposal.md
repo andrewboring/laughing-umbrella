@@ -9,7 +9,7 @@ In 2008, a (housing bubble)[https://en.wikipedia.org/wiki/United_States_housing_
  
 
 ## Hypothesis
-Using economnic indicators in the data sets listed below, we can create a machine learning model to receive input on a variety of variables to determine if a sudden downward market event is imminent.  
+Using economic indicators in the data sets listed below, we can create a machine learning model to receive input on a variety of variables to determine if a sudden downward market event is imminent.  
 
 
 ## Null Hypothesis
@@ -23,7 +23,7 @@ Data sets used in this project are gathered from public data sets from the follo
  - US Dept of Labor - Unemployment Rate
  - Federal Reserve Board - Household Debt Service and Financial Obligations
  - US Census - Market Absorbtion of Multifamily Units, New Residential Sales
-
+ - Standard and Poor - Case-Schiller House Price Index
 
 ## Approach
 
@@ -44,4 +44,4 @@ A Flask application will be created to access the data and retrain the model, an
 ## Limitations
 Economics is a complex discipline, with large interdependencies across economic zone boundaries. There are a number of variables contributing to such a prediction which are not considered here. 
 
-This is a class project to validate our knowledge of Python, Javascript, Data Engineering, and Working as a Team to answer a question using data analysis techniques and to display mastery of the Art of Storytelling in Data Science. If you're making a financial decision (eg, a real estate transaction) based on anything you read here, you're nuts.
+Disclaimer: This is a data science class project to validate our knowledge of Python, Javascript, Data Engineering, and Working as a Team to answer a question using data analysis techniques and to display mastery of the Art of Storytelling in data science. If you're making a financial decision (eg, a real estate transaction) based on anything you read here, you're nuts.
