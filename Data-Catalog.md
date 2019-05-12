@@ -43,7 +43,7 @@ Source: US Census
 URL: https://www.census.gov/econ/currentdata/  
 Files: /Data/New_Home_Sales  
 
-**Data: Standard & Poor's Case-Schiller 20 City Composite Home Price Index**
-Source: St Louis Federal Reserve
-URL: https://alfred.stlouisfed.org/series?seid=SPCS20RSA
-Files: /Data/alfredgraph.csv
+**Data: Standard & Poor's Case-Schiller 20 City Composite Home Price Index**  
+Source: St Louis Federal Reserve  
+URL: https://alfred.stlouisfed.org/series?seid=SPCS20RSA  
+Files: /Data/alfredgraph.csv  
