@@ -1,6 +1,9 @@
 # Predicting the Next Real Estate Market Crash
-Laughing Umbrella Project Proposal
-Team: Andrew Boring, Natalie Maize, Troy McCullough
+Project Proposal
+ 
+Team: Laughing Umbrella     
+Team Members: Andrew Boring, Natalie Maize, Troy McCullough   
+Date: May 2019  
 
 ## Abstract
 This project examines U.S. economic indicators from 2000 to present and uses machine learning to develop a model for predicting an imminent market correction, such as a sudden decline in value, in the real estate market. 
