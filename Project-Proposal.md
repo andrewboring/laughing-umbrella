@@ -43,4 +43,4 @@ A Flask application will be created to access the data and retrain the model, an
 ## Limitations
 Economics is a complex discipline, with large interdependencies across economic zone boundaries. There are a number of variables contributing to such a prediction which are not considered here. 
 
-This is a class project. If you're basing a financial decision (eg, a real estate transaction) based on anything you read here, you're nuts.
+This is a class project to validate our knowledge of Python, Javascript, Data Engineering, and Working as a Team to answer a question using data analysis techniques and to display mastery of the Art of Storytelling in Data Science. If you're making a financial decision (eg, a real estate transaction) based on anything you read here, you're nuts.
