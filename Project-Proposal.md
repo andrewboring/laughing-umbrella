@@ -37,7 +37,9 @@ A [Data Catalog](https://github.com/andrewboring/laughing-umbrella/blob/master/D
 ### Data Cleanup: Extract, Transform, Load
 Many of the data sets are individual, periodic files (annual, monthly, etc), rather than a single, combined file. Additionally, many file formats change even within data sets in the same series. We will create Jupyter notebooks showing the data cleanup and combination process, which should result in a single, large combined data set with indicators as column headers and rows organized by month/year.
 
-For data provided in quarterly periods, monthly values will be extrapolated. The AHS The final data set will be imported into a SQL database for querying.
+For data provided in quarterly periods, monthly values will be extrapolated. For data provided biennially (but with monthly increments), values will be extrapolated. 
+
+The AHS The final data set will be imported into a SQL database for querying.
 
 
 ### Initial Analysis and Model Creation
