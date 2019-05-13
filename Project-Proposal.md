@@ -23,11 +23,11 @@ The economic indicators in this data set do not provide a prediction of future r
 
 ## Data
 Data sets used in this project are gathered from public data sets from the following organizations:
- - Federal Housing Finance Agency - Housing Price Index
+ - Federal Housing Finance Agency - FHFA Housing Price Index
  - Housing and Urban Development - Housing Affordablility Data Survey
  - US Dept of Labor - Unemployment Rate
  - Federal Reserve Board - Household Debt Service and Financial Obligations
- - US Census - Market Absorbtion of Multifamily Units, New Residential Sales
+ - US Census - Market Absorption of Multifamily Units, New Residential Sales
  - Standard and Poor - Case-Schiller House Price Index
  
 A [Data Catalog](https://github.com/andrewboring/laughing-umbrella/blob/master/Data-Catalog.md) provides source information and links.
@@ -35,9 +35,9 @@ A [Data Catalog](https://github.com/andrewboring/laughing-umbrella/blob/master/D
 ## Approach
 
 ### Data Cleanup: Extract, Transform, Load
-Many of the data sets are individual, periodic files (annual, monthly, etc), rather than a single, combined file. Additionally, many file formats change even within data sets in the same series. We will create Jupyter notebooks showing the data cleanup and combination process, which should result in a single, large combined data set with indicators as column headers and rows organized by month/quarter/year.
+Many of the data sets are individual, periodic files (annual, monthly, etc), rather than a single, combined file. Additionally, many file formats change even within data sets in the same series. We will create Jupyter notebooks showing the data cleanup and combination process, which should result in a single, large combined data set with indicators as column headers and rows organized by month/year.
 
-The data set will be imported into sqlite3 database for querying.
+For data provided in quarterly periods, monthly values will be extrapolated. The AHS The final data set will be imported into a SQL database for querying.
 
 
 ### Initial Analysis and Model Creation
