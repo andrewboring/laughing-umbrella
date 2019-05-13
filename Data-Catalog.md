@@ -11,10 +11,10 @@ Format:
 ## Sources
 
 **Data: FHFA Housing Price Index (1991-2018)**  
-Source: Federal Housing Finance Agency  
-URL: https://catalog.data.gov/dataset/fhfa-house-price-indexes-hpis  
-Files: /Data/FHFA    
-Description: The FHFA House Price Index (HPI) is a broad measure of the movement of single-family house prices.  The HPI is a weighted, repeat-sales index, meaning that it measures average price changes in repeat sales or refinancings on the same properties. This information is obtained by reviewing repeat mortgage transactions on single-family properties whose mortgages have been purchased or securitized by Fannie Mae or Freddie Mac since January 1975.
+**Source:** Federal Housing Finance Agency  
+**URL:** https://catalog.data.gov/dataset/fhfa-house-price-indexes-hpis  
+**Files:** /Data/FHFA    
+**Description:** The FHFA House Price Index (HPI) is a broad measure of the movement of single-family house prices.  The HPI is a weighted, repeat-sales index, meaning that it measures average price changes in repeat sales or refinancings on the same properties. This information is obtained by reviewing repeat mortgage transactions on single-family properties whose mortgages have been purchased or securitized by Fannie Mae or Freddie Mac since January 1975.
 
 **Data: American Housing Survey: Housing Affordablility Data Survey**  
 Source: Housing and Urban Development, Office of Policy Development and Research  
