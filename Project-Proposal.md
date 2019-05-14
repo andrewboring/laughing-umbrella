@@ -2,7 +2,7 @@
 Project Proposal
  
 Team: Laughing Umbrella     
-Team Members: Andrew Boring, Natalie Maize, Troy McCullough   
+Team Members: Andrew Boring, Natalie Maize, Troy Holloway   
 Date: May 2019  
 
 ## Abstract
