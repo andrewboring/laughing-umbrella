@@ -34,9 +34,9 @@ Format:
 
 **Data: Unemployment Rate**  
 **Source:** US Dept of Labor  
-**URL:** https://catalog.data.gov/dataset/unemployment-rate/resource/bd8b1b2c-c635-4d47-9935-1a7c62a72b66?inner_span=True 
-**Files:** /Data/DOL
-**Description:**
+**URL:** https://catalog.data.gov/dataset/unemployment-rate/resource/bd8b1b2c-c635-4d47-9935-1a7c62a72b66?inner_span=True      
+**Files:** /Data/DOL    
+**Description:**    
 
 **Data: Household Debt Service and Financial Obligations**   
 **Source:** Federal Reserve Board  
