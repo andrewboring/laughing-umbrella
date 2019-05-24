@@ -18,25 +18,17 @@ Format:
 
 
 **Data: American Housing Affordablility Index Data Survey**     
-**Source:** Housing and Urban Development, Office of Policy Development and Research  
+**Source:** National Association of Realtors  
 **URL:** https://ycharts.com/indicators/us_composite_affordability_index    
 **Files:** /Clean Data/Housing_Affordability_Index_1981_2019    
-**Description:**
+**Description:**  The Monthly Housing Affordability Index measures whether or not a typical family earns enough income to qualify for a mortgage loan on a typical home at the national and regional levels based on the most recent monthly price and income data.
 
-~~**Data: American Housing Survey: Housing Affordablility Data Survey**~~
-~~Source: Housing and Urban Development, Office of Policy Development and Research~~
-~~URL: https://catalog.data.gov/dataset/american-housing-survey-ahs~~
-~~URL: https://www.huduser.gov/portal/datasets/hads/hads.html~~
-~~Files: /Data/AHS~~
-**Description:**
-
-   
 
 **Data: Unemployment Rate**  
 **Source:** US Dept of Labor  
 **URL:** https://catalog.data.gov/dataset/unemployment-rate/resource/bd8b1b2c-c635-4d47-9935-1a7c62a72b66?inner_span=True      
 **Files:** /Data/DOL    
-**Description:**    
+**Description:** The unemployment rate is defined as the percentage of unemployed workers in the total labor force.
 
 **Data: Household Debt Service and Financial Obligations**   
 **Source:** Federal Reserve Board  
@@ -62,3 +54,10 @@ Format:
 **URL:** https://alfred.stlouisfed.org/series?seid=SPCS20RSA  
 **Files:** /Data/Case-Schiller      
 **Description:**
+
+~~**Data: American Housing Survey: Housing Affordablility Data Survey**~~
+~~Source: Housing and Urban Development, Office of Policy Development and Research~~
+~~URL: https://catalog.data.gov/dataset/american-housing-survey-ahs~~
+~~URL: https://www.huduser.gov/portal/datasets/hads/hads.html~~
+~~Files: /Data/AHS~~
+~~**Description:**~~
