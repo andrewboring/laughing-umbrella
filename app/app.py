@@ -169,7 +169,7 @@ def process():
 
 @app.route("/data")
 def data():
-    return render_template("data.html", data=csvdataset.to_html())
+    return render_template("data.html", data=csvdataset.to_html(classes='table table-sm table-striped'))
 
 
 # In[ ]:
