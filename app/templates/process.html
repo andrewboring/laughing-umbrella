@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+{% block title %}Process{% endblock %}
+
+{% block nav %}
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Begin -></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/trends">Trends -> </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/forecast">Forecast -> </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/predictor">Predictor -> <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/summary">Summary</a>
+          </li>
+
+        </ul>
+{% endblock %}
+
+
+{% block content %}
+  <p class="bg-secondary"></p>
+{% endblock %}
+
+
+{% block script %}
+<script src="/static/js/some_script.js">
+{% endblock %}

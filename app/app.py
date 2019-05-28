@@ -8,7 +8,7 @@ import csv
 import pandas as pd
 import numpy as np
 import json
-
+import tablib
 
 from flask import Flask, render_template, request, redirect, url_for, jsonify
 app = Flask(__name__)
@@ -23,14 +23,33 @@ app = Flask(__name__)
 # In[2]:
 
 
+# Load data sets at application start.
 import json
 from pprint import pprint
 
-with open('historical_data.json') as f:
+with open('data/historical_data.json') as f:
     hdata = json.load(f)
     
-with open('forecasted_data.json') as f:
+with open('data/forecasted_data.json') as f:
     fdata = json.load(f)
+
+
+# In[2]:
+
+
+# Load trained models at application start.
+import pickle
+multi_regressor_pkl = open("models/multi_regressor_model.pkl", 'rb')
+multi_regressor_model = pickle.load(multi_regressor_pkl)
+
+multi_variate_pkl = open("models/multi_variate_model.pkl", 'rb')
+multi_regressor_model = pickle.load(multi_variate_pkl)
+
+
+# In[ ]:
+
+
+csvdataset = pd.DataFrame.from_csv("data/dataset.csv")
 
 
 # In[3]:
@@ -41,12 +60,6 @@ def index():
     return render_template("index.html")
 
 
-# In[ ]:
-
-
-
-
-
 # In[5]:
 
 
@@ -54,12 +67,6 @@ def index():
 
 
 # In[6]:
-
-
-
-
-
-# In[7]:
 
 
 
@@ -81,18 +88,6 @@ def historical_data():
         #data.append(row)
 
     #return jsonify(results)
-
-
-# In[ ]:
-
-
-
-
-
-# In[12]:
-
-
-
 
 
 # In[5]:
@@ -124,7 +119,57 @@ def update_data():
 # In[ ]:
 
 
+@app.route("/trends")
+def trends():
+    return render_template("trends.html")
 
+
+# In[ ]:
+
+
+@app.route("/forecast")
+def forecast():
+    return render_template("forecast.html")
+
+
+# In[ ]:
+
+
+@app.route("/predictor")
+def predictor():
+    return render_template("predictor.html")
+
+
+# In[ ]:
+
+
+@app.route("/summary")
+def summary():
+    return render_template("summary.html")
+
+
+# In[ ]:
+
+
+@app.route("/team")
+def team():
+    return render_template("team.html")
+
+
+# In[ ]:
+
+
+@app.route("/process")
+def process():
+    return render_template("process.html")
+
+
+# In[ ]:
+
+
+@app.route("/data")
+def data():
+    return render_template("data.html", data=csvdataset.to_html())
 
 
 # In[ ]:

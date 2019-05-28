@@ -1,0 +1,40 @@
+{% extends "layout.html" %}
+{% block title %}Forecast{% endblock %}
+
+{% block nav %}
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Begin -></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/trends">Trends -> </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/forecast">Forecast -> </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/predictor">Predictor -></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/summary">Summary</a>
+          </li>
+
+        </ul>
+{% endblock %}
+
+{% block content %}
+      <h1 class="mt-5 text-light">The Team</h1>
+      <p class="lead text-light">Laughing Umbrellas</p>
+
+      <ul>
+          <li class="text-light">Natalie Maize</li>
+          <li class="text-light">Troy Holloway</li>
+          <li class="text-light">Andrew Boring</li>
+      </ul>
+
+{% endblock %}
+
+
+{% block script %}
+<script src="/static/js/some_script.js">
+{% endblock %}
