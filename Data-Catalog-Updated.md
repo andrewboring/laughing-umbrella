@@ -35,29 +35,29 @@ Format:
 **URL:** https://www.federalreserve.gov/releases/housedebt/about.htm   
 **URL:** https://www.federalreserve.gov/datadownload/Download.aspx?rel=FOR&series=91e0f9a6b8e6a4b1ef334ce2eaf22860&filetype=csv&label=include&layout=seriescolumn&from=03/01/1990&to=12/31/2018&label=include&layout=seriescolumn&from=03/01/1990&to=12/31/2018    
 **Files:** /Data/Debt_Service       
-**Description:**
+**Description:** The Federal Reserve is the central banking system for the US.  The Federal Reserve calculates an approximationation of the debt service ratio faced by households.  The approximation of this calculation is due to no such data set being available.
 
 **Data: Survey of Market Absorbtion of Multifamily Units, Absorption Rates of Privately Financed, Nonsubsidized, Unfurnished Rental Apartments**   
 **Source:** US Census												    
 **URL:** https://www.census.gov/programs-surveys/soma/data/tables.html     
 **Files:** /Data/Market_Absorbtion      
-**Description:**
+**Description:**  SOMA collects and reports data on how quickly new construction of multifamily units with 5 or more units are absorbed (Sold or rented).  Reports in this section are based on the quarter and the year of absorption of units three 3 months after completion.
 
 **Data: New Residential Sales**  
 **Source:** US Census  
 **URL:** https://www.census.gov/econ/currentdata/  
 **Files:** /Data/New_Home_Sales     
-**Description:**
+**Description:**  The Census Bureau collects data about the economy and the people living in the United States from many different sources.
 
 **Data: Standard & Poor's Case-Schiller 20 City Composite Home Price Index**  
 **Source:** St Louis Federal Reserve  
 **URL:** https://alfred.stlouisfed.org/series?seid=SPCS20RSA  
 **Files:** /Data/Case-Schiller      
-**Description:**
+**Description:**  View a monthly index that tracks changes in the price of residential real estate in 20 major metropolitan regions in the U.S..
 
 ~~**Data: American Housing Survey: Housing Affordablility Data Survey**~~
 ~~Source: Housing and Urban Development, Office of Policy Development and Research~~
 ~~URL: https://catalog.data.gov/dataset/american-housing-survey-ahs~~
 ~~URL: https://www.huduser.gov/portal/datasets/hads/hads.html~~
 ~~Files: /Data/AHS~~
-~~**Description:**~~
+~~**Description:**  The AHS is the largest, regular national housing sample survey in the United States. The U.S. Census Bureau conducts the AHS to obtain up-to-date housing statistics for the Department of Housing and Urban Development (HUD).~~
