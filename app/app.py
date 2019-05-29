@@ -59,7 +59,9 @@ csvdataset = pd.DataFrame.from_csv("data/dataset.csv")
 def index():
     return render_template("index.html")
 
-
+@app.route("/historical-data.csv")
+def hdatacsv():
+    return csvdataset.to_csv()
 # In[5]:
 
 
@@ -170,6 +172,7 @@ def process():
 @app.route("/data")
 def data():
     return render_template("data.html", data=csvdataset.to_html(classes='table table-sm table-striped'))
+    #return render_template("data.html")
 
 
 # In[ ]:

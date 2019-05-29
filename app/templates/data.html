@@ -23,12 +23,17 @@
 {% endblock %}
 
 {% block content %}
+
   <div class="bg-light .table-responsive">
-    {{ data|safe }}
+    <table class="table table-dark table-striped">
+      <tbody></tbody>
+    </table>
   </div>
 {% endblock %}
 
 
 {% block script %}
-<!-- <script src="/static/js/dataset.js"> -->
+<script src="/static/js/dataset.js"></script>
 {% endblock %}
+
+<!-- {{ data|safe }} -->

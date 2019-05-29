@@ -26,9 +26,13 @@
 {% block content %}
     <h1 class="mt-5 text-light">Trends</h1>
       <p class="lead text-light">Overall Economic Indicators</p>
-      <img src = "../static/img/curve.jpg" class="img-fluid" width="75%">
+
       <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sollicitudin nisi in erat vulputate, tristique interdum ligula faucibus. Vestibulum vel ullamcorper nisl. Nulla vestibulum, risus quis varius euismod, justo nunc lacinia orci, sit amet venenatis risus nisi sit amet enim. Nam quis molestie diam, ut consequat nisl. Sed vitae scelerisque neque. Donec vitae orci malesuada, blandit ante at, ullamcorper velit. Morbi gravida imperdiet augue vitae consectetur. Aliquam nec sapien efficitur, varius risus vel, laoreet magna. Pellentesque posuere pharetra augue, non bibendum nisl lobortis id.
       </p>
+
+      <div class="container bg-light" id="content">
+        <svg width="960" height="500"></svg>
+      </div>
 
       <div class="container text-center">
         <a href="/" class="text-light"><button type="button" class="btn btn-secondary">Prev</button></a>
@@ -38,10 +42,5 @@
 {% endblock %}
 
 {% block script %}
-  <script src="/static/js/some_script.js">
+  <script src="/static/js/trends.js"></script>
 {% endblock %}
-
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  </body></html>
