@@ -46,15 +46,12 @@ multi_variate_pkl = open("models/multi_variate_model.pkl", 'rb')
 multi_regressor_model = pickle.load(multi_variate_pkl)
 
 
-# In[ ]:
+
 
 
 csvdataset = pd.DataFrame.from_csv("data/dataset.csv")
 csvforecast = pd.DataFrame.from_csv("data/forecasted_data.csv")
 
-
-
-# In[3]:
 
 
 @app.route("/")
@@ -69,16 +66,6 @@ def hdatacsv():
 @app.route("/forecasted-data.csv")
 def fdatacsv():
     return csvforecast.to_csv()
-
-
-
-# In[6]:
-
-
-
-
-
-# In[4]:
 
 
 @app.route("/historical-data.json")
@@ -100,24 +87,15 @@ def historical_data():
 @app.route("/forecasted-data.json")
 def forecasted_data():
     return jsonify(fdata)
-    # Create a dictionary from the row data and append to a list of 
-    #data = []
-    #for row in results:
-        #historical_dict = {}
-        #historical_dict["name"] = passenger.name
-        #historical_dict["age"] = passenger.age
-        #historical_dict"sex"] = passenger.sex
-        #data.append(row)
 
-    #return jsonify(results)
 
 
 # In[6]:
 
 
 #@app.route("/update-data")
-def update_data():
-    return update.html
+#def update_data():
+#    return update.html
 
 
 # In[ ]:
