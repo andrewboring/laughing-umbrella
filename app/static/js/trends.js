@@ -31,6 +31,10 @@ d3.csv("/historical-data.csv", function(error, hdata) {
     data.period = parseTime(data.period);
     data.CS_Index = +data.CS_Index;
     data['Unemployment Rate'] = +data['Unemployment Rate'];
+    data['USA'] = +data['USA'];
+    data['Housing Affordability index'] = +data['Housing Affordability Index'];
+    data['Market Absorbtion Rate (%)'] = +data['Market Absorbtion Rate (%)'];
+    data['Financial obligations ratio'] = +data['Financial obligations ratio'];
   });
 
   // Create scaling functions
@@ -44,6 +48,22 @@ d3.csv("/historical-data.csv", function(error, hdata) {
 
   var yLinearScale2 = d3.scaleLinear()
     .domain([0, d3.max(hdata, d => d['Unemployment Rate'])])
+    .range([height, 0]);
+
+  var yLinearScale3 = d3.scaleLinear()
+    .domain([0, d3.max(hdata, d => d['USA'])])
+    .range([height, 0]);
+
+  var yLinearScale4 = d3.scaleLinear()
+    .domain([0, d3.max(hdata, d => d['Housing Affordability Index'])])
+    .range([height, 0]);
+
+  var yLinearScale5 = d3.scaleLinear()
+    .domain([0, d3.max(hdata, d => d['Market Absorbtion Rate (%)'])])
+    .range([height, 0]);
+
+  var yLinearScale6 = d3.scaleLinear()
+    .domain([0, d3.max(hdata, d => d['Financial obligations ratio'])])
     .range([height, 0]);
 
   // Create axis functions
@@ -60,13 +80,13 @@ d3.csv("/historical-data.csv", function(error, hdata) {
   // Add y1-axis to the left side of the display
   chartGroup.append("g")
     // Define the color of the axis text
-    .classed("blue", true)
+    .classed("white", true)
     .call(leftAxis);
 
   // Add y2-axis to the right side of the display
   chartGroup.append("g")
     // Define the color of the axis text
-    .classed("green", true)
+    .classed("white", true)
     .attr("transform", `translate(${width}, 0)`)
     .call(rightAxis);
 
@@ -79,11 +99,30 @@ d3.csv("/historical-data.csv", function(error, hdata) {
     .x(d => xTimeScale(d.period))
     .y(d => yLinearScale2(d['Unemployment Rate']));
 
+  var line3 = d3.line()
+    .x(d => xTimeScale(d.period))
+    .y(d => yLinearScale1(d['USA']));
+
+  var line4 = d3.line()
+    .x(d => xTimeScale(d.period))
+    .y(d => yLinearScale1(d['Housing Affordability index']));
+
+  var line5 = d3.line()
+    .x(d => xTimeScale(d.period))
+    .y(d => yLinearScale2(d['Market Absorbtion Rate (%)']));
+
+  var line6 = d3.line()
+    .x(d => xTimeScale(d.period))
+    .y(d => yLinearScale2(d['Financial obligations ratio']));
+
+
   // Append a path for line1
 
   chartGroup.append("path")
     .data([hdata])
     .attr("d", line1)
+    .attr("fill","none")
+    .attr("stroke","green")
     .classed("line green", true);
 
   // Append a path for line2
@@ -91,7 +130,40 @@ d3.csv("/historical-data.csv", function(error, hdata) {
   chartGroup.append("path")
     .data([hdata])
       .attr("d", line2)
+      .attr("fill","none")
+      .attr("stroke","blue")
     .classed("line blue", true);
+
+ //line3
+  chartGroup.append("path")
+    .data([hdata])
+    .attr("d", line3)
+    .attr("fill","none")
+    .attr("stroke","red")
+    .classed("line red", true);
+//line 4
+  chartGroup.append("path")
+    .data([hdata])
+    .attr("d", line4)
+    .attr("fill","none")
+    .attr("stroke","blue")
+    .classed("line blue", true);
+
+//line 5
+  chartGroup.append("path")
+    .data([hdata])
+    .attr("d", line5)
+    .attr("fill","none")
+    .attr("stroke","pink")
+    .classed("line pink", true);
+
+  chartGroup.append("path")
+    .data([hdata])
+    .attr("d", line6)
+    .attr("fill","none")
+    .attr("stroke","pink")
+    .classed("line pink", true);
+
   // Append axes titles
   chartGroup.append("text")
   .attr("transform", `translate(${width / 2}, ${height + margin.top + 20})`)
