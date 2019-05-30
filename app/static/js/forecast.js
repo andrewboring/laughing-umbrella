@@ -103,11 +103,17 @@ d3.csv("/forecasted-data.csv", function(error, hdata) {
   // Append axes titles
   chartGroup.append("text")
   .attr("transform", `translate(${width / 2}, ${height + margin.top + 20})`)
-    .classed("text", true)
+  .attr("text-anchor", "middle")
+  .attr("font-size", "16px")
+  .attr("fill", "green")
+  .classed("text", true)
     .text("Historical Data");
 
   chartGroup.append("text")
   .attr("transform", `translate(${width / 2}, ${height + margin.top + 37})`)
-    .classed("text", true)
+  .attr("text-anchor", "middle")
+  .attr("font-size", "16px")
+  .attr("fill", "blue")
+  .classed("text", true)
     .text("Forecasted Data");
 });

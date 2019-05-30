@@ -2,7 +2,8 @@
 var svgWidth = 960;
 var svgHeight = 600;
 
-var margin = { top: 20, right: 40, bottom: 60, left: 50 };
+
+var margin = { top: 20, right: 40, bottom: 120, left: 50 };
 
 var width = svgWidth - margin.left - margin.right;
 var height = svgHeight - margin.top - margin.bottom;
@@ -16,6 +17,15 @@ var svg = d3
 
 var chartGroup = svg.append("g")
   .attr("transform", `translate(${margin.left}, ${margin.top})`);
+
+  // gridlines in x axis function
+//function make_x_gridlines() { return d3.axisBottom(x)
+//  .ticks(5)
+//}
+  // gridlines in y axis function
+//function make_y_gridlines() { return d3.axisLeft(y)
+//  .ticks(5)
+//}
 
 // Import data from an external CSV file
 d3.csv("/historical-data.csv", function(error, hdata) {
@@ -43,26 +53,14 @@ d3.csv("/historical-data.csv", function(error, hdata) {
     .range([0, width]);
 
   var yLinearScale1 = d3.scaleLinear()
-    .domain([0, d3.max(hdata, d => d.CS_Index)])
+    .domain([0, d3.max(hdata, d => d.USA)])
     .range([height, 0]);
 
   var yLinearScale2 = d3.scaleLinear()
     .domain([0, d3.max(hdata, d => d['Unemployment Rate'])])
     .range([height, 0]);
 
-  var yLinearScale3 = d3.scaleLinear()
-    .domain([0, d3.max(hdata, d => d['USA'])])
-    .range([height, 0]);
-
-  var yLinearScale4 = d3.scaleLinear()
-    .domain([0, d3.max(hdata, d => d['Housing Affordability Index'])])
-    .range([height, 0]);
-
-  var yLinearScale5 = d3.scaleLinear()
-    .domain([0, d3.max(hdata, d => d['Market Absorption Rate (%)'])])
-    .range([height, 0]);
-
-  var yLinearScale6 = d3.scaleLinear()
+  var yLinearScale3 = d3.scalePow()
     .domain([0, d3.max(hdata, d => d['Financial obligations ratio'])])
     .range([height, 0]);
 
@@ -109,14 +107,33 @@ d3.csv("/historical-data.csv", function(error, hdata) {
 
   var line5 = d3.line()
     .x(d => xTimeScale(d.period))
-    .y(d => yLinearScale2(d['Market Absorption Rate (%)']));
+    .y(d => yLinearScale1(d['Market Absorption Rate (%)']));
 
   var line6 = d3.line()
     .x(d => xTimeScale(d.period))
-    .y(d => yLinearScale2(d['Financial obligations ratio']));
+    .y(d => yLinearScale3(d['Financial obligations ratio']));
+
+
+// set up grid lines
+// add the X gridlines
+//  chartGroup.append("g")
+//    .attr("class", "grid")
+//    .attr("transform", "translate(0," + height + ")")
+//    .call(make_x_gridlines()
+//        .tickSize(-height)
+//        .tickFormat("")
+//    )
+//    // add the Y gridlines
+//  chartGroup.append("g")
+//    .attr("class", "grid")
+//    .call(make_y_gridlines()
+//        .tickSize(-width)
+//        .tickFormat("")
+//    )
 
 
   // Append a path for line1
+
 
   chartGroup.append("path")
     .data([hdata])
@@ -154,32 +171,58 @@ d3.csv("/historical-data.csv", function(error, hdata) {
     .data([hdata])
     .attr("d", line5)
     .attr("fill","none")
-    .attr("stroke","pink")
-    .classed("line pink", true);
+    .attr("stroke","orange")
+    .classed("line orange", true);
 
   chartGroup.append("path")
     .data([hdata])
     .attr("d", line6)
     .attr("fill","none")
-    .attr("stroke","magenta")
-    .classed("line magenta", true);
+    .attr("stroke","DarkSlateBlue")
+    .classed("line DarkSlateBlue", true);
 
   // Append axes titles
   chartGroup.append("text")
   .attr("transform", `translate(${width / 2}, ${height + margin.top + 20})`)
     .classed("text", true)
-    .attr("text-primary", true)
+    .attr("text-anchor", "middle")
+    .attr("font-size", "14px")
+    .attr("fill", "green")
     .text("Case-Schiller Index");
 
   chartGroup.append("text")
-  .attr("transform", `translate(${width / 2}, ${height + margin.top + 37})`)
-    .attr("text-primary", true)
+  .attr("transform", `translate(${width / 2}, ${height + margin.top + 35})`)
+    .attr("text-anchor", "middle")
+    .attr("font-size", "14px")
+    .attr("fill", "blue")
     .classed("text", true)
     .text("Unemployment Rate");
 
   chartGroup.append("text")
-  .attr("transform", `translate(${width / 2}, ${height + margin.top + 37})`)
-    .attr("text-primary", true)
-    .classed("text", true)
+  .attr("transform", `translate(${width / 2}, ${height + margin.top + 50})`)
+    .attr("text-anchor", "middle")
+    .attr("font-size", "14px")
+    .attr("fill", "red")
     .text("Unemployment Rate");
+
+  chartGroup.append("text")
+  .attr("transform", `translate(${width / 2}, ${height + margin.top + 65})`)
+    .attr("text-anchor", "middle")
+    .attr("font-size", "14px")
+    .attr("fill", "purple")
+    .text("Housing Affordability Index");
+
+  chartGroup.append("text")
+    .attr("transform", `translate(${width / 2}, ${height + margin.top + 80})`)
+    .attr("text-anchor", "middle")
+    .attr("font-size", "14px")
+    .attr("fill", "orange")
+    .text("Market Absorption Rate (%)");
+
+  chartGroup.append("text")
+    .attr("transform", `translate(${width / 2}, ${height + margin.top + 95})`)
+    .attr("text-anchor", "middle")
+    .attr("font-size", "14px")
+    .attr("fill", "DarkSlateBlue")
+    .text("Financial Obligations Ratio");
 });
