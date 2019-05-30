@@ -13,9 +13,6 @@
             <a class="nav-link" href="/forecast">Forecast -> <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/predictor">Predictor -> </a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="/summary">Summary</a>
           </li>
 
@@ -25,9 +22,8 @@
 {% block content %}
     <h1 class="mt-5 text-light">Forecast</h1>
       <p class="lead text-light">The Future Is Now</p>
-
-      <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sollicitudin nisi in erat vulputate, tristique interdum ligula faucibus. Vestibulum vel ullamcorper nisl. Nulla vestibulum, risus quis varius euismod, justo nunc lacinia orci, sit amet venenatis risus nisi sit amet enim. Nam quis molestie diam, ut consequat nisl. Sed vitae scelerisque neque. Donec vitae orci malesuada, blandit ante at, ullamcorper velit. Morbi gravida imperdiet augue vitae consectetur. Aliquam nec sapien efficitur, varius risus vel, laoreet magna. Pellentesque posuere pharetra augue, non bibendum nisl lobortis id.
-      </p>
+      <hr style="border-color: grey">
+      <p class="text-light">Using a Regression-based machine learning mode called ElasticNet, we used the existing historical data to train the model. Once trained, we forecasted the historical Case Schiller Index based on the other historical data points. This lets us create a monthly past "prediction" and compare it to the actual values. Our forecasted historical data lines up closely with the actual historical Case Schiller Index. </p>
 
       <div class="container text-center">
 
@@ -37,6 +33,7 @@
       </div>
 
       <div class="container text-center">
+        <p>&nbsp;</p>
         <a href="/trends" class="text-light"><button type="button" class="btn btn-secondary">Prev</button></a>
         <a href="/summary"class="text-light"><button type="button" class="btn btn-secondary">Next</button></a>
       </div>

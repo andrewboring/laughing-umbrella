@@ -24,10 +24,31 @@
 
 
 {% block content %}
-  <p class="bg-secondary"></p>
-{% endblock %}
+      <h1 class="mt-5 text-light">The Process</h1>
+      <p class="lead text-light">How The Sausage Is Made</p>
+      <hr style="border-color: grey">
+      <p class="text-light">Our process begins will a visit to catalog.data.gov and searching for relevant economic data.<br />
+        The resulting data sets used are documented in our <a href="https://github.com/andrewboring/laughing-umbrella/blob/master/Data-Catalog.md" target="_blank" class="text-light">Data Catalog</a>, available on Github.  </p>
+
+  <p class="text-light">Most files were available via download link only, so updating data is a manual process until scraping can be reliably implemented. </p>
+  <p class="text-light">We created Jupyter Notebooks for each data file to create a cleaned file for the period of time we desired. Most files were available as monthly period data, however the Federal Reserve provided Financial Obligations as quarterly aggregated data. For this file, we needed to upsample the resolution to monthly and then use spline interpolate to create the missing values. </p>
+
+  <p class="text-light">Wach notebooks outputs to a Clean Data directory.
+  <p class="text-light">A Data Assembler notebook reads each of the cleaned CSVs, merges them on the month/year period column, and then drops any rows with NA values, and save the resulting dataset as a CSV file. </p>
+
+  <p class="text-light">We created a notebook for exploratory charts, including some trend lines and scatterplots to see the relation of various datapoints. This helped us understand the data better as we began to prepare our models. </p>
+
+  <p class="text-light">For the Predictor model, we separated the CS Index as our y value and all other features as X. We then trained the model to predict a CS Index value based on the values of X. This allows us to create a variety of inputs and calculate a number of "what if?" scenarios. </p>
+
+  <p class="text-light">For the Forecast model, we needed to create four columns of "predictions" to train the model. We created 1 month, 3 month, 6 month, and 12 month predictions, and backfilled them using the exissting historical data.  That is February's current month value becomes January's 1 month "predicted" value, Aprils' current value becomes January's 4 month prediction, and so forth. </p>
+
+  <p class="text-light">We then separated the Case-Schiller predicted values as independent Y variable, and all other features (including the original CS Index) as dependent X values, then trained the model. This allows us to create a series of predictions based on a historical trends. </p>
+
+  <p class="text-light">We implemented a simple Flask application to provide the historical and forecasted data as both CSV and JSON over HTTP. The Flask application also loads the trained models, although no interface exists (as yet) to interact with them. This is planned for a future release. </p>
 
 
-{% block script %}
-<script src="/static/js/some_script.js">
+  <p class="text-light">The front-end interface is a set of simple, templated-style HTML using Bootstrap CSS for styling, Jinja2 templates to create a parent/child system for containing common presentations like headers and footers, with D3js plotting trend lines based on data provided by Flask.  </p>
+
+  <p class="text-light">Future functionality can include automatic updating of data sets via API or web scraping and appending it to the data API routes. An interface for exploring data and creating predictions can be added to allow for a more interactive experience.  </p>
+
 {% endblock %}

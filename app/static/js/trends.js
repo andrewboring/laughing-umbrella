@@ -1,6 +1,6 @@
 // Chart Params
 var svgWidth = 960;
-var svgHeight = 500;
+var svgHeight = 600;
 
 var margin = { top: 20, right: 40, bottom: 60, left: 50 };
 
@@ -168,11 +168,18 @@ d3.csv("/historical-data.csv", function(error, hdata) {
   chartGroup.append("text")
   .attr("transform", `translate(${width / 2}, ${height + margin.top + 20})`)
     .classed("text", true)
-    .classed("text-primary", true)
+    .attr("text-primary", true)
     .text("Case-Schiller Index");
 
   chartGroup.append("text")
   .attr("transform", `translate(${width / 2}, ${height + margin.top + 37})`)
+    .attr("text-primary", true)
+    .classed("text", true)
+    .text("Unemployment Rate");
+
+  chartGroup.append("text")
+  .attr("transform", `translate(${width / 2}, ${height + margin.top + 37})`)
+    .attr("text-primary", true)
     .classed("text", true)
     .text("Unemployment Rate");
 });
