@@ -23,7 +23,7 @@ app = Flask(__name__)
 # In[2]:
 
 
-# Load data sets at application start.
+# Load data sets at application start, keep 'em in memory.
 import json
 from pprint import pprint
 
@@ -50,6 +50,8 @@ multi_regressor_model = pickle.load(multi_variate_pkl)
 
 
 csvdataset = pd.DataFrame.from_csv("data/dataset.csv")
+csvforecast = pd.DataFrame.from_csv("data/forecasted_data.csv")
+
 
 
 # In[3]:
@@ -64,7 +66,9 @@ def hdatacsv():
     return csvdataset.to_csv()
 # In[5]:
 
-
+@app.route("/forecasted-data.csv")
+def fdatacsv():
+    return csvforecast.to_csv()
 
 
 
@@ -77,7 +81,7 @@ def hdatacsv():
 # In[4]:
 
 
-@app.route("/historical-data")
+@app.route("/historical-data.json")
 def historical_data():
     return jsonify(hdata)
     # Create a dictionary from the row data and append to a list of 
@@ -92,10 +96,8 @@ def historical_data():
     #return jsonify(results)
 
 
-# In[5]:
 
-
-@app.route("/forecasted-data")
+@app.route("/forecasted-data.json")
 def forecasted_data():
     return jsonify(fdata)
     # Create a dictionary from the row data and append to a list of 
@@ -171,8 +173,8 @@ def process():
 
 @app.route("/data")
 def data():
-    return render_template("data.html", data=csvdataset.to_html(classes='table table-sm table-striped'))
-    #return render_template("data.html")
+    #return render_template("data.html", data=csvdataset.to_html(classes='table table-sm table-striped'))
+    return render_template("data.html")
 
 
 # In[ ]:

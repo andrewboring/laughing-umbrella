@@ -18,7 +18,7 @@ var chartGroup = svg.append("g")
   .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
 // Import data from an external CSV file
-d3.csv("/historical-data.csv", function(error, hdata) {
+d3.csv("/forecasted-data.csv", function(error, hdata) {
   if (error) throw error;
 
   console.log(hdata);
@@ -30,11 +30,7 @@ d3.csv("/historical-data.csv", function(error, hdata) {
   hdata.forEach(function(data) {
     data.period = parseTime(data.period);
     data.CS_Index = +data.CS_Index;
-    data['Unemployment Rate'] = +data['Unemployment Rate'];
-    data['USA'] = +data['USA'];
-    data['Housing Affordability index'] = +data['Housing Affordability Index'];
-    data['Market Absorption Rate (%)'] = +data['Market Absorption Rate (%)'];
-    data['Financial obligations ratio'] = +data['Financial obligations ratio'];
+    data[1yr Prediction] = +data[1yr Prediction];
   });
 
   // Create scaling functions
@@ -46,25 +42,6 @@ d3.csv("/historical-data.csv", function(error, hdata) {
     .domain([0, d3.max(hdata, d => d.CS_Index)])
     .range([height, 0]);
 
-  var yLinearScale2 = d3.scaleLinear()
-    .domain([0, d3.max(hdata, d => d['Unemployment Rate'])])
-    .range([height, 0]);
-
-  var yLinearScale3 = d3.scaleLinear()
-    .domain([0, d3.max(hdata, d => d['USA'])])
-    .range([height, 0]);
-
-  var yLinearScale4 = d3.scaleLinear()
-    .domain([0, d3.max(hdata, d => d['Housing Affordability Index'])])
-    .range([height, 0]);
-
-  var yLinearScale5 = d3.scaleLinear()
-    .domain([0, d3.max(hdata, d => d['Market Absorption Rate (%)'])])
-    .range([height, 0]);
-
-  var yLinearScale6 = d3.scaleLinear()
-    .domain([0, d3.max(hdata, d => d['Financial obligations ratio'])])
-    .range([height, 0]);
 
   // Create axis functions
   var bottomAxis = d3.axisBottom(xTimeScale)
@@ -95,25 +72,9 @@ d3.csv("/historical-data.csv", function(error, hdata) {
     .x(d => xTimeScale(d.period))
     .y(d => yLinearScale1(d.CS_Index));
 
-  var line2 = d3.line()
-    .x(d => xTimeScale(d.period))
-    .y(d => yLinearScale2(d['Unemployment Rate']));
-
-  var line3 = d3.line()
-    .x(d => xTimeScale(d.period))
-    .y(d => yLinearScale1(d['USA']));
-
-  var line4 = d3.line()
-    .x(d => xTimeScale(d.period))
-    .y(d => yLinearScale1(d['Housing Affordability Index']));
-
-  var line5 = d3.line()
-    .x(d => xTimeScale(d.period))
-    .y(d => yLinearScale2(d['Market Absorption Rate (%)']));
-
-  var line6 = d3.line()
-    .x(d => xTimeScale(d.period))
-    .y(d => yLinearScale2(d['Financial obligations ratio']));
+  //var line2 = d3.line()
+  //  .x(d => xTimeScale(d.period))
+  //  .y(d => yLinearScale2(d['']));
 
 
   // Append a path for line1
@@ -134,45 +95,16 @@ d3.csv("/historical-data.csv", function(error, hdata) {
       .attr("stroke","blue")
     .classed("line blue", true);
 
- //line3
-  chartGroup.append("path")
-    .data([hdata])
-    .attr("d", line3)
-    .attr("fill","none")
-    .attr("stroke","red")
-    .classed("line red", true);
-//line 4
-  chartGroup.append("path")
-    .data([hdata])
-    .attr("d", line4)
-    .attr("fill","none")
-    .attr("stroke","purple")
-    .classed("line purple", true);
 
-//line 5
-  chartGroup.append("path")
-    .data([hdata])
-    .attr("d", line5)
-    .attr("fill","none")
-    .attr("stroke","pink")
-    .classed("line pink", true);
-
-  chartGroup.append("path")
-    .data([hdata])
-    .attr("d", line6)
-    .attr("fill","none")
-    .attr("stroke","magenta")
-    .classed("line magenta", true);
 
   // Append axes titles
   chartGroup.append("text")
   .attr("transform", `translate(${width / 2}, ${height + margin.top + 20})`)
     .classed("text", true)
-    .classed("text-primary", true)
-    .text("Case-Schiller Index");
+    .text("Historical Data");
 
   chartGroup.append("text")
   .attr("transform", `translate(${width / 2}, ${height + margin.top + 37})`)
     .classed("text", true)
-    .text("Unemployment Rate");
+    .text("Forecasted Data");
 });
