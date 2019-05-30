@@ -30,7 +30,7 @@ d3.csv("/forecasted-data.csv", function(error, hdata) {
   hdata.forEach(function(data) {
     data.period = parseTime(data.period);
     data.CS_Index = +data.CS_Index;
-    data[1yr Prediction] = +data[1yr Prediction];
+    data['1yr Prediction'] = +data['1yr Prediction'];
   });
 
   // Create scaling functions
@@ -42,6 +42,9 @@ d3.csv("/forecasted-data.csv", function(error, hdata) {
     .domain([0, d3.max(hdata, d => d.CS_Index)])
     .range([height, 0]);
 
+    var yLinearScale2 = d3.scaleLinear()
+      .domain([0, d3.max(hdata, d => d['1yr Prediction'])])
+      .range([height, 0]);
 
   // Create axis functions
   var bottomAxis = d3.axisBottom(xTimeScale)
@@ -72,9 +75,9 @@ d3.csv("/forecasted-data.csv", function(error, hdata) {
     .x(d => xTimeScale(d.period))
     .y(d => yLinearScale1(d.CS_Index));
 
-  //var line2 = d3.line()
-  //  .x(d => xTimeScale(d.period))
-  //  .y(d => yLinearScale2(d['']));
+  var line2 = d3.line()
+    .x(d => xTimeScale(d.period))
+    .y(d => yLinearScale1(d['1yr Prediction']));
 
 
   // Append a path for line1
